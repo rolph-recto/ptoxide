@@ -1,5 +1,5 @@
 mod compiler;
 mod vm;
-mod ast;
+pub mod ast;
 
 pub use vm::{Context, Argument, LaunchParams};
